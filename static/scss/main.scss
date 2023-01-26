@@ -1,0 +1,59 @@
+@use "custom";
+// @use "resume";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+
+:root {
+  --social_icon_img_height: 5vh;
+  --nick_page_theme_font_color: --bs-gray-900;
+  --std_framing_border_color: rgba(233, 84, 32, .6);
+  --normal_font_size: 1.25rem;
+}
+
+body {
+  background-color: var(--bs-gray-400);
+  font-family: 'Roboto Slab', serif;
+}
+
+.std_framing {
+  border: 1px solid var(--std_framing_border_color);
+  border-width: .5em;
+  border-radius: 3rem;
+  background-color: var(--bs-gray-500);
+  // padding: 1rem 0 1rem 0;
+  padding: 1rem;
+  color: var(--nick_page_theme_font_color);
+  // width: 100%;
+  font-size: var(--normal_font_size)
+}
+
+.main {
+  padding: 5rem 1rem 5rem 1rem;
+  // background-color: red;
+}
+
+.home{
+  padding-left: 5rem;
+  // background-color: aqua;
+}
+
+.data_div{
+  padding: 0 0 0 5rem;
+}
+
+.table_super{
+  display:flex;
+  justify-content: center;
+  border: 1px solid var(--bs-gray-800);
+  border-width: .5em;
+  border-radius: 3rem;
+  background-color: var(--bs-gray-500);
+  padding:1rem;
+
+}
+.table_custom{
+  width: 50%;
+  background-color: var(--bs-gray-200);
+  padding: 2rem;
+  border-radius: 3rem;
+}
